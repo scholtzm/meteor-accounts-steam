@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('scholtzm:steam', ['client', 'server']);
+  api.use('scholtzm:steam@1.0.0', ['client', 'server']);
 
   api.addFiles(['steam_login_button.css'], 'client');
   api.addFiles('steam_common.js', ['client', 'server']);
