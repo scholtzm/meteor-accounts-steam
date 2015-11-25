@@ -36,7 +36,7 @@ These options override service configuration stored in the database.
 
 The value below can be only set via Accounts UI dialog or by inserting the service configuration directly to database:
 
-* `timeout` - timouet value (in milliseconds) for the OpenID handshake
+* `timeout` - timeout value (in milliseconds) for the OpenID handshake
 
 ## Accounts UI integration
 

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'scholtzm:accounts-steam',
-  version: '1.1.0',
+  version: '1.1.1',
   summary: 'Steam OpenID integration for Meteor Accounts',
   git: 'https://github.com/scholtzm/meteor-accounts-steam',
   documentation: 'README.md'
