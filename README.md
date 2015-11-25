@@ -34,9 +34,13 @@ These options override service configuration stored in the database.
 
 *Note:* `redirectUrl` will be used only if `loginStyle` is set to `redirect`
 
+The value below can be only set via Accounts UI dialog or by inserting the service configuration directly to database:
+
+* `timeout` - timouet value (in milliseconds) for the OpenID handshake
+
 ## Accounts UI integration
 
-This package integrates with `accounts-ui` and also provides configuration dialog. The configuration dialog contains field "Anything", which is there simply for compatibility reasons. You'll need to enter something into this field, however the value will not be used anywhere.
+This package integrates with `accounts-ui` and also provides configuration dialog. The configuration dialog contains field `Timeout`, which can be used to adjust timeout value (in milliseconds) for the OpenID handshake.
 
 You can also skip the config dialog by running a short snippet in your `Meteor.startup` function, see below.
 
@@ -55,13 +59,16 @@ if(Meteor.isServer) {
       { service: 'steam' },
       {
         $set: {
-          loginStyle: 'redirect'
+          loginStyle: 'redirect',
+          timeout: 10000 // 10 seconds
         }
       }
     );
   });
 }
 ```
+
+You will most likely want to do this to have your Steam login service always configured.
 
 ## Fetching user's profile
 
