@@ -2,6 +2,8 @@
 
 Atmosphere is filled with over dozen Steam packages which provide this functionality, however most of these packages are either outdated or lack even the basic description, such as a README file.
 
+The development of this package is not active because it just works. Tested with Meteor 1.4.0.1 so far.
+
 ## Installation
 
 `meteor add scholtzm:accounts-steam`
