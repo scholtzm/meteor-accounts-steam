@@ -4,7 +4,7 @@ This package provides seamless integration of Meteor accounts system with Steam'
 
 Tested with **Meteor 1.4.1.2** so far.
 
-Check out [meteor-accounts-steam-example](https://github.com/scholtz/meteor-accounts-steam-example) for a basic example.
+Check out [meteor-accounts-steam-example](https://github.com/scholtzm/meteor-accounts-steam-example) for a basic example.
 
 ## Installation
 

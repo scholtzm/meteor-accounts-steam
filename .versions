@@ -46,8 +46,8 @@ reactive-var@1.0.6
 reload@1.1.4
 retry@1.0.4
 routepolicy@1.0.6
-scholtzm:accounts-steam@1.1.1
-scholtzm:steam@1.1.0
+scholtzm:accounts-steam@1.2.0
+scholtzm:steam@1.2.0
 service-configuration@1.0.5
 spacebars@1.0.7
 spacebars-compiler@1.0.7
